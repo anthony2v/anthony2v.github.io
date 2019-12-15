@@ -14,7 +14,7 @@ html {
 	background-color: darkgray;
 }
 h1, h2 {
-	color: blue;
+	color: navy;
 }
 #navbar {
 	display: block;
@@ -36,16 +36,16 @@ li.navitem {
 }
 li.navitem a {
 	display: block;
-	color: blue;
+	color: navy;
 	font-weight: bold;
 	padding: 8px 8px;
 	text-decoration: none;
 }
 li.navitem a.active {
-	background-color: blue;
+	background-color: navy;
 	color: white;
 }
 li.navitem a:hover:not(.active) {
-	background-color: blue;
+	background-color: navy;
 	color: white;
 }
