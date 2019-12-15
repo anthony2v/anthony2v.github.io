@@ -1,12 +1,17 @@
 /* CSS Document */
+html {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
 #navbarText{
 	text-align: center;
 }
 .custom-content {
 	text-align: center;
-	border: 4px solid darkgray;
+	border: 4px solid black;
+	border-radius: 5px;
 	padding: 0px 4px;
 	margin: 8px 0px;
+	background-color: darkgray;
 }
 h1, h2 {
 	color: blue;
@@ -20,9 +25,10 @@ ul.navlist {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: white;
-	border: 4px solid darkgrey;
-	font-size: 1.4em;
+	background-color: darkgray;
+	border: 4px solid black;
+	border-radius: 5px;
+	font-size: 1.2em;
 }
 li.navitem {
 	text-align: center;
