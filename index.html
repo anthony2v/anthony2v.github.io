@@ -6,43 +6,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<title>anthony2v's Personal Website</title>
+		<title>Anthony van Voorst - Portfolio Website</title>
 	</head>
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  		<a class="navbar-brand" href="index.html">Home</a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-  		<div class="collapse navbar-collapse" id="navbarText">
-    		<ul class="navbar-nav mr-auto">
-      			<li class="nav-item">
-        			<a class="nav-link" href="./history/vanier_college.html">Vanier College</a>
-      			</li>
-      			<li class="nav-item">
-        			<a class="nav-link" href="./history/concordia_university.html">Concordia University</a>
-      			</li>
-      			<li class="nav-item">
-        			<a class="nav-link" href="./history/projects.html">Projects</a>
-      			</li>
-    		</ul>
-  		</div>
-		</nav>
+	<body class="bg-primary">
 		<!-- Custom Page Content -->
-		<div class="container-sm">
-			<div class="card mt-1">
+		<div class="container-xl">
+			<div class="card mt-3 text-center">
 				<div class="card-header">
-					<h5>anthony2v's Personal Website</h5>
+					<h5>Anthony van Voorst</h5>
 				</div>
 				<div class="card-body">
 					<h5 class="card-title">Introduction</h5>
-					<p class="card-text">Hi there, welcome to my personal website! On this page, you'll find some information about me as well as my contact info. I've created pages for my education and projects so feel free to explore!</p>
-					<h5 class="card-title">About Me</h5>
-					<p class="card-text">I am a Computer Science student from Montreal. My hobbies include video games, bike riding, camping, and coding. Professionally I've worked in IT for a number of years and I'm always happy to help out friends and family with computer-related issues. School takes up a lot of my time but I'm planning to change that as I get closer to graduation. When I have more time to work on personal projects, I will be showcasing them here. They say in the software development field that you should use the technology that you love to work with and master it. I haven't found it yet, but I'm hoping to do it through both my school projects and personal projects.</p>
+					<p class="card-text">I'm a software developer based in Montréal, QC. My hobbies include video games, bike riding, and camping. Below you'll find a list of my most recent projects.</p>
+					</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 d-flex align-items-stretch">
+					<div class="card mt-1">
+						<a href="./static/image/warzone_preview.png" target="_blank">
+							<img class="card-img-bottom" src="./static/image/warzone_preview.png" alt="Warzone Preview">
+						</a>
+						<div class="card-body">
+							<h5>Warzone</h5>
+							<h6 class="card-subtitle mb-2 text-muted">C, C++, NCurses</h6>
+							<p class="card-text">This is a variant of the Risk boardgame called Warzone. It is text-based version of the game built using C++ and the C GUI library NCurses.
+								I worked on this with 4 teammates in our Advanced Program Design with C++ class. It is a desktop application which is why a live demo is not available.</p>
+    						<a href="https://github.com/JonathanSolvesProblems/Warzone-Comp345" target="_blank" class="card-link">Github</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 d-flex align-items-stretch">
+					<div class="card mt-1">
+						<div class="card-body">
+							<h5>Mobile Endless Runner</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Unreal Blueprints</h6>
+							<p class="card-text"></p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="card mt-1">
+			<div class="card mt-1 mb-3 text-center">
 				<div class="card-header">
 					<h5>Contact Information</h5>
 				</div>
