@@ -5,13 +5,27 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 		<title>Anthony van Voorst - Portfolio Website</title>
 	</head>
 	<body class="bg-primary">
 		<!-- Custom Page Content -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+			  <span class="navbar-brand mb-0 h1">Anthony's Portfolio</span>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				  <a class="nav-link" href="concordia.html">Concordia</a>
+				</div>
+			  </div>
+			</div>
+		  </nav>
 		<div class="container-xl">
-			<div class="card mt-3 text-center">
+			<div class="card text-white bg-dark mt-3 text-center">
 				<div class="card-header">
 					<h5>Anthony van Voorst</h5>
 					<a href="https://ca.linkedin.com/in/anthony-van-voorst-62887a81" target="_blank">LinkedIn</a> - 
@@ -25,13 +39,13 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6 d-flex align-items-stretch">
-					<div class="card mt-1">
+					<div class="card text-white bg-dark mt-1">
 						<a href="./static/image/warzone_preview.png" target="_blank">
 							<img class="card-img-bottom" src="./static/image/warzone_preview.png" alt="Warzone Preview">
 						</a>
 						<div class="card-body">
-							<h5>Warzone</h5>
-							<h6 class="card-subtitle mb-2 text-muted">C, C++, NCurses</h6>
+							<h5>Text-Based Warzone Video Game [2020]</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Technologies: C, C++, NCurses</h6>
 							<p class="card-text">
 								This is a variant of the Risk boardgame called Warzone. It is text-based version of the game built using C++ and the C GUI library NCurses.
 								I worked on this with 4 teammates in our Advanced Program Design with C++ class. It is a desktop application which is why a live demo is not available.
@@ -41,13 +55,13 @@
 					</div>
 				</div>
 				<div class="col-sm-6 d-flex align-items-stretch">
-					<div class="card mt-1">
+					<div class="card text-white bg-dark mt-1">
 						<a href="./static/image/message_board_preview.png" target="_blank">
 							<img class="card-img-bottom" src="./static/image/message_board_preview.png" alt="Warzone Preview">
 						</a>
 						<div class="card-body">
-							<h5>Message Board</h5>
-							<h6 class="card-subtitle mb-2 text-muted">Java, SQL, JSP</h6>
+							<h5>Message Board [2020]</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Technologies: Java, SQL, JSP</h6>
 							<p class="card-text">
 								A messaging application I worked on in a team of 4 for one of my software engineering classes. It stores messages in a MySQL database and
 								maintains access rights for viewing and editing (Live demo available soon).
@@ -57,7 +71,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="card mt-1 mb-3 text-center">
+			<div class="card text-white bg-dark mt-1 text-center">
 				<div class="card-header">
 					<h5>Contact Information</h5>
 				</div>
@@ -69,10 +83,13 @@
 					</address>
 				</div>
 			</div>
+			<div class="card text-white bg-dark mt-1 mb-3 text-center">
+				<div class="card-header">
+					<h5><a href="#">Top of the Page</a></h5>
+				</div>
+			</div>
 		</div>
 		<!-- JavaScript -->
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 	</body>
 </html>
