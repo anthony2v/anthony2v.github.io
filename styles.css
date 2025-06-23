@@ -46,6 +46,9 @@
 .about-me-content {
     width: min(750px, calc(70% + 100px));
     padding: 0 10px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+    }
 }
 
 .about-me-description {
@@ -101,8 +104,14 @@ a:hover {
     flex-direction: column;
     gap: 8px;
     width: 400px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+    }
 }
 
 .project-preview-image {
     width: 400px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+    }
 }
