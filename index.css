@@ -13,6 +13,11 @@
     justify-content: space-between;
 }
 
+.header-selected-button {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
 .header-nav-buttons {
     display: flex;
     flex-direction: row;
@@ -48,6 +53,27 @@
     text-align: justify;
 }
 
-.tools-title {
+.subsection-title {
     font-size: x-large;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 15px;
+    & > div {
+        margin: 5px;
+        padding: 8px;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 1px;
+    }
+}
+
+.contact-information {
+    text-decoration: inherit;
+    color: white;
+    cursor: pointer;
 }
