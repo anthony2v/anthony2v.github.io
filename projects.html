@@ -4,54 +4,76 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- CSS -->
+		<link rel="stylesheet" href="styles.css">
         <title>Projects</title>
     </head>
     <body>
-        <div class="card text-white bg-dark mt-3 text-center">
-				<div class="card-header">
-					<h5>Anthony van Voorst</h5>
-					<a href="https://ca.linkedin.com/in/anthony-van-voorst-62887a81" target="_blank">LinkedIn</a> - 
-					<a href="https://github.com/anthony2v" target="_blank">GitHub</a> - 
-					<a href="./static/pdf/VanVoorstAnthonyCV.pdf" target="_blank">Curriculum Vitae</a>
-				</div>
-				<div class="card-body">
-					<h5 class="card-title">Introduction</h5>
-					<p class="card-text">I'm a software developer based in Montréal, QC. My hobbies include video games, bike riding, and camping. Below you'll find a list of my most recent projects.</p>
-					</div>
+        <div class="header">
+			<a
+                class="header-nav-button"
+                href="./index.html"
+            >
+                Anthony van Voorst
+            </a>
+			<div class="header-nav-buttons">
+				<div class="header-selected-button">Projects</div>
+				<a
+					class="header-nav-button"
+					href="./static/pdf/VanVoorstAnthonyCV.pdf"
+					target="_blank"
+				>
+					Resume
+				</a>
 			</div>
-			<div class="row">
-				<div class="col-sm-6 d-flex align-items-stretch">
-					<div class="card text-white bg-dark mt-1">
-						<a href="./static/image/warzone_preview.png" target="_blank">
-							<img class="card-img-bottom" src="./static/image/warzone_preview.png" alt="Warzone Preview">
-						</a>
-						<div class="card-body">
-							<h5>Text-Based Warzone Video Game [2020]</h5>
-							<h6 class="card-subtitle mb-2 text-muted">Technologies: C, C++, NCurses</h6>
-							<p class="card-text">
-								This is a variant of the Risk boardgame called Warzone. It is text-based version of the game built using C++ and the C GUI library NCurses.
-								I worked on this with 4 teammates in our Advanced Program Design with C++ class. It is a desktop application which is why a live demo is not available.
-							</p>
-    						<a href="https://github.com/JonathanSolvesProblems/Warzone-Comp345" target="_blank" class="card-link">Github</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 d-flex align-items-stretch">
-					<div class="card text-white bg-dark mt-1">
-						<a href="./static/image/message_board_preview.png" target="_blank">
-							<img class="card-img-bottom" src="./static/image/message_board_preview.png" alt="Warzone Preview">
-						</a>
-						<div class="card-body">
-							<h5>Message Board [2020]</h5>
-							<h6 class="card-subtitle mb-2 text-muted">Technologies: Java, SQL, JSP</h6>
-							<p class="card-text">
-								A messaging application I worked on in a team of 4 for one of my software engineering classes. It stores messages in a MySQL database and
-								maintains access rights for viewing and editing (Live demo available soon).
-							</p>
-							<a class="card-link" href="https://github.com/anthony2v/MessageBoard" target="_blank">Github</a>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
+        <div class="project-list">
+            <div class="project-card">
+                <a href="./static/image/warzone_preview.png" target="_blank">
+                    <img
+                        class="project-preview-image"
+                        src="./static/image/warzone_preview.png"
+                        alt="Warzone Preview"
+                    />
+                </a>
+                <div class="subsection-title">
+                    Text-Based Warzone Video Game [2020]
+                </div>
+                <p>
+                    This is a variant of the Risk boardgame called Warzone. It
+                    is text-based version of the game built using C++ and the C
+                    GUI library NCurses. I worked on this with 4 teammates in
+                    our Advanced Program Design with C++ class. It is a desktop
+                    application which is why a live demo is not available.
+                </p>
+                <div class="skills-list">
+                    <div>C++</div>
+                    <div>C</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="./static/image/message_board_preview.png" target="_blank">
+                    <img
+                        class="project-preview-image"
+                        src="./static/image/message_board_preview.png"
+                        alt="Message Board Preview"
+                    />
+                </a>
+                <div class="subsection-title">
+                    Message Board [2020]
+                </div>
+                <p>
+                    A messaging application I worked on in a team of 4 for one
+                    of my software engineering classes. It stores messages in a
+                    MySQL database and maintains access rights for viewing and
+                    editing.
+                </p>
+                <div class="skills-list">
+                    <div>Java</div>
+                    <div>Java Server Pages</div>
+                    <div>MySQL</div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
