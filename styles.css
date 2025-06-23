@@ -1,0 +1,148 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: #011243;
+}
+
+.site-header {
+    font-size: x-large;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 2px solid white;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.header-selected-button {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    pointer-events: none;
+}
+
+.header-nav-button {
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-me-title {
+    display: flex;
+    align-items: flex-start;
+    font-size: xx-large;
+    padding: 10px 0 15px;
+}
+
+.about-me-content {
+    width: min(750px, calc(70% + 100px));
+    padding: 0 10px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+    }
+}
+
+.about-me-description {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.subsection-title {
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.list-title {
+    padding-bottom: 5px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 15px;
+    & > div {
+        margin: 5px;
+        padding: 8px;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 1px;
+    }
+}
+
+a:hover {
+    color: orange;
+}
+
+.contact-information-section {
+    padding-bottom: 50px;
+}
+
+.contact-information {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 400px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+    }
+}
+
+.project-preview-image {
+    width: 400px;
+    @media screen and (max-width: 600px) {
+        width: 300px;
+    }
+}
