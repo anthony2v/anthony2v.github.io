@@ -51,10 +51,16 @@
 
 .about-me-description {
     text-align: justify;
+    line-height: 1.5;
 }
 
 .subsection-title {
     font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.list-title {
+    padding-bottom: 5px;
 }
 
 .skills-list {
@@ -72,8 +78,12 @@
     }
 }
 
+a:hover {
+    color: orange;
+}
+
 .contact-information {
-    text-decoration: inherit;
+    text-decoration: underline;
     color: white;
     cursor: pointer;
 }
